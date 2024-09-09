@@ -51,17 +51,22 @@ The study includes the following steps :
      
      - use "guessed" parameter set: only to confirm a local peak when this peak was revealed by serendipity (incorrected set from other booster/basis combination)
 
- - Select the two admitted solutions:
+ - Final submission and scores:
 
+   After the final submission, it is now possible to evaluate the  performance of the mixing optimization strategy (Table). Seven experiments are presented, together with the baseline reference. 
+   
    The following notebooks were selected on the basis of their rank in the public score listing:
 
-    - the "houseblend r4" serendipity solution (knowing there was an overfit)
+    - the "houseblend rep4" serendipity solution (knowing there was an overfit), which was ranked first of these seven models for the public score.
   
-    - the "rep14" solution with recalculation of mixing parameters as it was ranked higher than the basis and than the corresponding solution without recalculation.
+    - the "rep14" solution with recalculation of mixing parameters which was ranked second of these seven models for the public score.
   
-   Thus, one solution was choosen using the public tesing set as "oracle", and the second on a rational basis.
+   Thus, one solution was choosen using the public tesing set as "oracle", and the second on a rational basis and favorable public score.
 
-  - Analyse the results for the private test set:
+   After the shake, three experiments  had  a private score of 169. The "houseblend rep4" model superseded the "rep14". The serendipity solution, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend model".
+    
+
+![Tableau final](https://github.com/user-attachments/assets/cd4d0941-7641-414b-acf5-8930045e2817)
 
  
 
