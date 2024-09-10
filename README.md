@@ -79,11 +79,11 @@ Result using the latest of these notebooks are presented here.
   
    Thus, a first solution was chosen using the public testing set as "oracle", and the second on a rational basis and a favorable public testing.
 
-   After the shake, two experiments  had  a private score higher than 0.169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method. See notebooks [Rank 1](https://github.com/pdc-quantum/isic-2024/blob/main/rank%201/ntb4-mix-d169-isic-2024-2-image-lines.ipynb) and [Rank 2](https://github.com/pdc-quantum/isic-2024/blob/main/rank%202/ntb4-mix-d169-isic-2024-2-image-lines%20(1).ipynb)
+   After the shake, two experiments  had  private scores of 0.16953 and 0.16942, both with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method. See notebooks [Rank 1](https://github.com/pdc-quantum/isic-2024/blob/main/rank%201/ntb4-mix-d169-isic-2024-2-image-lines.ipynb) and [Rank 2](https://github.com/pdc-quantum/isic-2024/blob/main/rank%202/ntb4-mix-d169-isic-2024-2-image-lines%20(1).ipynb)
 
    This validates this strategy where cross-validation is performed on a playground made of the predictions of the entire year-2024 training dataset using the booster and the basis models.
 
-   The serendipity solution with private score 0.168, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model.
+   The serendipity solution with private score 0.16871, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model.
 
    The "rep14" solutions were relegated at the end of the list with [Rank 6](https://github.com/pdc-quantum/isic-2024/blob/main/rank%206/ntb4-mix-d169-isic-2024-2-image-lines%20(4).ipynb) and [Rank 7](https://github.com/pdc-quantum/isic-2024/blob/main/rank%207/ntb4-mix-d169-isic-2024-2-image-lines%20(5).ipynb), but before the reference basis [Rank 8](https://github.com/pdc-quantum/isic-2024/blob/main/rank%208/ntb4-mix-d169-isic-2024-2-image-lines%20(6).ipynb).
     
@@ -94,7 +94,7 @@ Result using the latest of these notebooks are presented here.
 
 ### My thoughts:
 
- - The public scores failed to select any of the four best solutions. This is most certainly due to the paucity of cancer cases in the reduced test dataset.
+ - The public scores failed to select any of the four best solutions. This is most certainly due to the paucity of cancer cases in the reduced test dataset .
  - Serendipity let proudly get a bronze medal. Without this, the best public scores would have lead to submit two "rep14" solutions with no medal reward.
  - If however a set of four solutions had been allowed for the final submission, it would have resulted in a silver medal at about the 60th place.
   
