@@ -78,7 +78,7 @@ Result using the latest of these notebooks are presented here.
   
    Thus, a first solution was chosen using the public testing set as "oracle", and the second on a rational basis and a favorable public testing.
 
-   After the shake, three experiments  had  a private score of 169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method.
+   After the shake, two experiments  had  a private score higher than 0.169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method.
 
    This validates this strategy where cross-validation is performed on a playground made of the predictions of the entire year-2024 training dataset using the booster and the basis models.
 
