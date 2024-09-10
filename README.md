@@ -94,9 +94,9 @@ Result using the latest of these notebooks are presented here.
 
 ### My thoughts:
 
- - The public scores failed to select any of the four best solutions. This is most certainly due to the paucity of cancer cases in the reduced test dataset .
- - Serendipity let proudly get a bronze medal. Without this, the best public scores would have lead to submit two "rep14" solutions with no medal reward.
- - If however a set of four solutions had been allowed for the final submission, it would have resulted in a silver medal at about the 60th place.
+ - The public scores failed to select any of the four best solutions. This is most certainly due to the paucity of cancer cases in the reduced test dataset. 🤔
+ - Serendipity let proudly get a bronze medal. Without this, the best public scores would have lead to submit two "rep14" solutions with no medal reward.😊
+ - If however a set of four solutions had been allowed for the final submission, it would have resulted in a silver medal at about the 60th place.😞
   
 
 
