@@ -53,9 +53,9 @@ Result using the latest of these notebooks are presented here.
   - Cross-validation was performed. Using 2 splits based on target 0 and target 1, five repeats and 42 as random-state, 10 experiments were obtained for each of eight mixing formulas.
 
   - Examples of optimization notebookss:
-    -  [houseblend, lower loss, epoch 8](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20houseblend%20loss%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image)
-    -  [houseblend, best AUC, epoch 10](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20houseblend%20auc%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image)
-    -  [rep14, lower loss and best AUC, epoch 9](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20rep14%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image)
+    -  [houseblend, lower loss, epoch 8](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20houseblend%20loss%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image.ipynb)
+    -  [houseblend, best AUC, epoch 10](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20houseblend%20auc%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image.ipynb)
+    -  [rep14, lower loss and best AUC, epoch 9](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20rep14%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image.ipynb)
      
   - Using the minimize function for the methods Powell, Nelder-Mead and BFGS, the mean maximal pauc-80 accross the experiments was calculated, allowing to select the best combination method/formula for each combination booster/basis. The Nelder-Mead method was dismissed because of convergence problems leading to poor scores.
  
