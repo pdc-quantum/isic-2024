@@ -37,11 +37,11 @@ The study includes the following steps :
     - https://www.kaggle.com/code/wajahat1064/skin-cancer-prediction-score-0-184
     - https://www.kaggle.com/code/vyacheslavbolotin/isic-2024-2-image-lines
    
-Result using the latest notebook are presented here.  
+Result using the latest of these notebooks are presented here.  
  
-  - For each booster and each basis, the prediction was obtained for the entire year-2024 dataset
+  - For each booster and each basis, the prediction was obtained for the entire year-2024 training dataset
 
-  - Cross-validation was performed. Using 2 splits based on target 0 and target 1, five repeats and 42 as random-state, 10 experiments were obtained for eight diffeent mixing formulas.
+  - Cross-validation was performed. Using 2 splits based on target 0 and target 1, five repeats and 42 as random-state, 10 experiments were obtained for eight mixing formulas.
  
   - Using the minimize function for the methods Powell, Nelder-Mead and BFGS, the mean maximal pauc-80 accross the experiments was calculated, allowing to select the best combination method/formula for each combination booster/basis. The Nelder-Mead method was dismissed because of convergence problems leading to poor scores.
  
@@ -51,7 +51,7 @@ Result using the latest notebook are presented here.
      
      - use the mean parameter values observed in the CV process
      
-     - use "guessed" parameter set: only to confirm a local peakthat was revealed by serendipity (incorrected parameter set from other booster/basis combination)
+     - use "guessed" parameter set: only to confirm a local peak that was revealed by serendipity (using incorrected parameter set from other booster/basis combination)
 
  - Final submission and scores:
 
@@ -63,15 +63,21 @@ Result using the latest notebook are presented here.
   
     - the "rep14" solution with recalculation of mixing parameters which was ranked second of these seven models for the public score.
   
-   Thus, one solution was choosen using the public testing set as "oracle", and the second on a rational basis and a favorable public testing.
+   Thus, a first solution was chosen using the public testing set as "oracle", and the second on a rational basis and a favorable public testing.
 
-   After the shake, three experiments  had  a private score of 169, all with the "houseblend rep4" model. The serendipity solution, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model. The "rep14" solutions were relegated at the end of the list, but before the reference basis.
+   After the shake, three experiments  had  a private score of 169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method.
+
+   This validates this strategy where cross-validation is performed on a playground made of the predictions for the entire training dataset by the booster and the basis models.
+
+   The serendipity solution, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model.
+
+   The "rep14" solutions were relegated at the end of the list, but before the reference basis.
     
 
 ![Tableau final](https://github.com/user-attachments/assets/cd4d0941-7641-414b-acf5-8930045e2817)
 
  
-
+ 
     - 
 
    - 
@@ -82,9 +88,5 @@ Result using the latest notebook are presented here.
 
 http://timm.fast.ai/
 
-## Model training
 
-## Other useful strategies or approaches
-
-## Model inference
 
