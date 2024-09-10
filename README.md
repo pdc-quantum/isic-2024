@@ -86,7 +86,8 @@ Result using the latest of these notebooks are presented here.
 
    The "rep14" solutions were relegated at the end of the list, but before the reference basis.
     
-![Tableau final](https://github.com/user-attachments/assets/e8cc82b9-c3d9-4c9a-8638-0da39019d405)
+
+![Tableau final](https://github.com/user-attachments/assets/bb450a07-0122-4630-b71c-9986f6c3210c)
 
 
 
