@@ -1,4 +1,4 @@
-# ISIC 2024 - Skin Cancer Detection with 3D-TBP
+e notebooks [r# ISIC 2024 - Skin Cancer Detection with 3D-TBP
 #  Boosting Complex Solution with New Image Solution 
 
 ## 266th Place Bronze Medalist
@@ -79,13 +79,13 @@ Result using the latest of these notebooks are presented here.
   
    Thus, a first solution was chosen using the public testing set as "oracle", and the second on a rational basis and a favorable public testing.
 
-   After the shake, two experiments  had  a private score higher than 0.169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method.
+   After the shake, two experiments  had  a private score higher than 0.169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method. See notebooks [Rank 1](https://github.com/pdc-quantum/isic-2024/blob/main/rank%201/ntb4-mix-d169-isic-2024-2-image-lines.ipynb) and [Rank 2](https://github.com/pdc-quantum/isic-2024/blob/main/rank%202/ntb4-mix-d169-isic-2024-2-image-lines%20(1).ipynb)
 
    This validates this strategy where cross-validation is performed on a playground made of the predictions of the entire year-2024 training dataset using the booster and the basis models.
 
    The serendipity solution with private score 0.168, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model.
 
-   The "rep14" solutions were relegated at the end of the list, but before the reference basis.
+   The "rep14" solutions were relegated at the end of the list with [Rank 6](https://github.com/pdc-quantum/isic-2024/blob/main/rank%206/ntb4-mix-d169-isic-2024-2-image-lines%20(4).ipynb) and [Rank 7](https://github.com/pdc-quantum/isic-2024/blob/main/rank%207/ntb4-mix-d169-isic-2024-2-image-lines%20(5).ipynb), but before the reference basis [Rank 8](https://github.com/pdc-quantum/isic-2024/blob/main/rank%208/ntb4-mix-d169-isic-2024-2-image-lines%20(6).ipynb).
     
 
 ![Tableau final](https://github.com/user-attachments/assets/bb450a07-0122-4630-b71c-9986f6c3210c)
