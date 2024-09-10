@@ -1,4 +1,4 @@
-#  Optimizing a mix of solutions
+#  Boosting a Complex Solution with a New Image Solution
 
 ## 270th Place Bronze Medalist
 
