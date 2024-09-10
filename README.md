@@ -33,12 +33,12 @@ The study includes the following steps :
 
   - Among the tried dataset curations, two options appeared better performing:
 
-    - "houseblend rep4" : the minority includes four replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 4.
+    - ["houseblend rep4"](https://github.com/pdc-quantum/isic-2024/blob/main/houseblend%20rep4%20densenet%20169%20training%20of%20zinneke%20picture): the minority includes four replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 4.
    
     ![image](https://github.com/user-attachments/assets/a2da4086-7201-48a3-918a-b32a44fa47ce)
   
 
-    - "rep14" :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 2.
+    - ["rep14"](httpsgithub.com/pdc-quantum/isic-2024/blob/main/rep14%20densenet%20169%20training%20of%20zinneke%20picture) :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 2.
     
 ![image](https://github.com/user-attachments/assets/8420c32d-94f1-4c80-bb45-34d46874d579)
 
@@ -55,7 +55,12 @@ Result using the latest of these notebooks are presented here.
   - For each booster and each basis, the prediction was obtained for the entire year-2024 training dataset
 
   - Cross-validation was performed. Using 2 splits based on target 0 and target 1, five repeats and 42 as random-state, 10 experiments were obtained for each of eight mixing formulas.
- 
+
+  - Examples of optimization notebookss:
+    -  [houseblend, lower loss, epoch 8](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20houseblend%20loss%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image)
+    -  [houseblend, best AUC, epoch 10](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20houseblend%20auc%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image)
+    -  [rep14, lower loss and best AUC, epoch 9](https://github.com/pdc-quantum/isic-2024/blob/main/nb4%20rep14%20optimization%20ISIC%202024%20merge%20predictions%20tabular%20and%20image)
+     
   - Using the minimize function for the methods Powell, Nelder-Mead and BFGS, the mean maximal pauc-80 accross the experiments was calculated, allowing to select the best combination method/formula for each combination booster/basis. The Nelder-Mead method was dismissed because of convergence problems leading to poor scores.
  
   - Different booster/basis combination were submitted,  each with three possible approaches for the mixing parameters:
@@ -72,7 +77,7 @@ Result using the latest of these notebooks are presented here.
    
    The following notebooks were selected for the competition on the basis of their rank in my local public score listing:
 
-   - the "houseblend rep4" serendipity solution, which was ranked first of these seven models for the public score.
+   - the "houseblend rep4" serendipity solution, which was ranked first of these seven models for the public score. 
   
    - the "rep14" solution with recalculation of mixing parameters which was ranked second of these seven models for the public score.
   
