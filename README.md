@@ -9,7 +9,7 @@
 
 - Data context: https://www.kaggle.com/competitions/isic-2024-challenge/Data
 
-## Overview of the Approach
+## Overview of the approach
 
 -  As a cardiologist who recently worked on an AI model for detecting cardiomegaly on chest X-rays, I started this competition with a particular interest for the image prediction. But the performance was poor. Moreover, attempts by others and by me demonstrated that adding an image model to a tabular model was most often counter-productive.
  
@@ -33,9 +33,14 @@ The study includes the following steps :
 
   - Among the tried dataset curations, two options appeared better performing:
 
-    - "houseblend rep4" : the minority includes four replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 4 to 1.  
+    - "houseblend rep4" : the minority includes four replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 4.
+   
+    ![image](https://github.com/user-attachments/assets/a2da4086-7201-48a3-918a-b32a44fa47ce)
+  
 
-    - "rep14" :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 2 to 1.
+    - "rep14" :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 2.
+    ![image](https://github.com/user-attachments/assets/4cba648d-9da7-4b74-a891-1e9031c0872c)
+
    
 ### Establish and test a boost strategy
 
