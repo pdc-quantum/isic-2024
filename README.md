@@ -73,9 +73,9 @@ Result using the latest of these notebooks are presented here.
    
    The following notebooks were selected for the competition on the basis of their rank in my local public score listing:
 
-   - the "houseblend rep4" serendipity solution, which was ranked first of these seven models for the public score. 
+   - the ["houseblend rep4"](https://github.com/pdc-quantum/isic-2024/blob/main/rank%205/ntb4-mix-d169-isic-2024-2-image-lines%20(3).ipynb) serendipity solution, which was ranked first of these seven models for the public score. 
   
-   - the "rep14" solution with recalculation of mixing parameters which was ranked second of these seven models for the public score.
+   - the ["rep14"](https://github.com/pdc-quantum/isic-2024/blob/main/rank%206/ntb4-mix-d169-isic-2024-2-image-lines%20(4).ipynb) solution with recalculation of mixing parameters which was ranked second of these seven models for the public score.
   
    Thus, a first solution was chosen using the public testing set as "oracle", and the second on a rational basis and a favorable public testing.
 
