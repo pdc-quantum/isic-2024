@@ -34,13 +34,9 @@ The study includes the following steps :
   - Among the tried dataset curations, two options appeared better performing:
 
     - ["houseblend rep4"](https://github.com/pdc-quantum/isic-2024/blob/main/houseblend%20rep4%20densenet%20169%20training%20of%20zinneke%20picture.ipynb): the minority includes four replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 4.
-   
-    ![image](https://github.com/user-attachments/assets/a2da4086-7201-48a3-918a-b32a44fa47ce)
   
 
     - ["rep14"](https://github.com/pdc-quantum/isic-2024/blob/main/rep14%20densenet%20169%20training%20of%20zinneke%20picture.ipynb) :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 2.
-    
-![image](https://github.com/user-attachments/assets/8420c32d-94f1-4c80-bb45-34d46874d579)
 
    
 ### Establish and test a boost strategy
