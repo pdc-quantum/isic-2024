@@ -25,7 +25,7 @@ The study includes the following steps :
    
      - https://www.kaggle.com/code/hugowjd/isic-2024-pytorch-training-effnet-b3
 
-     - https://www.kaggle.com/code/hugowjd/isic-2024-pytorch-inference-effnet-b2/
+     - https://www.kaggle.com/code/hugowjd/isic-2024-pytorch-inference-effnet-b3
   
   - Pytorch image models available in the tim library were trained on different datasets using data augmentation for the minority (cancer) and undersampling for the majority (not cancer).
  
@@ -97,6 +97,8 @@ Result using the latest of these notebooks are presented here.
  - The public scores failed to select any of the four best solutions. This is most certainly due to the paucity of cancer cases in the reduced test dataset. 🤔
  - Serendipity let proudly get a bronze medal 😊🥉. Without this, the best public scores would have lead to submit two "rep14" solutions with no medal reward.
  - If however a set of four solutions had been allowed for the final submission, it would have resulted in a silver medal at about the 60th place🥈.
+
+I warmly thank the Kaggle team who organized this competition and helped me learn much. I am also particularly grateful to Jiadi Wang,Vyacheslav Bolotin and Wajahat Waheed who made public the notebooks that inspired me. It is a great feeling to climb on the shoulders of Kaggle's giants.
  
   
 
