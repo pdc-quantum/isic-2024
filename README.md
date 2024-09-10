@@ -18,7 +18,7 @@
 
 The study includes the following steps :
 
-- Find a good booster and a good data curation:
+### Find a good booster and a good data curation:
   
   - Try Pytorch image models available in the tim library and train them on different datasets using data augmentation for the minority (cancer) and undersampling for the majority (not cancer).
  
@@ -30,7 +30,7 @@ The study includes the following steps :
 
     - "rep14" :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 2 to 1.
    
-- Establish and test a boost strategy
+### Establish and test a boost strategy
 
   - Different published models with good pAUC scores were used as basis for the different boosters:
     - https://www.kaggle.com/code/vyacheslavbolotin/isic-2024-only-tabular-data-new-features
@@ -53,7 +53,7 @@ Result using the latest of these notebooks are presented here.
      
      - use "guessed" parameter set: only to confirm a local peak that was revealed by serendipity (using incorrected parameter set from other booster/basis combination)
 
- - Final submission and scores:
+ ### Final submission and scores:
 
    After the final submission, it is now possible to evaluate the  performance of the mixing optimization strategy (Table). Seven experiments are presented, together with the baseline reference. 
    
@@ -67,20 +67,15 @@ Result using the latest of these notebooks are presented here.
 
    After the shake, three experiments  had  a private score of 169, all with the "houseblend rep4" model and for parameter sets adjusted by the present optimization method.
 
-   This validates this strategy where cross-validation is performed on a playground made of the predictions for the entire training dataset by the booster and the basis models.
+   This validates this strategy where cross-validation is performed on a playground made of the predictions of the entire year-2024 training dataset using the booster and the basis models.
 
-   The serendipity solution, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model.
+   The serendipity solution with private score 0.168, for which a bronze medal was attributed, was classed below the "rational" solutions of the "houseblend rep4" model.
 
    The "rep14" solutions were relegated at the end of the list, but before the reference basis.
     
 
 ![Tableau final](https://github.com/user-attachments/assets/cd4d0941-7641-414b-acf5-8930045e2817)
 
- 
- 
-    - 
-
-   - 
 
 
 
