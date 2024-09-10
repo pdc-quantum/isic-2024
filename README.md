@@ -39,7 +39,8 @@ The study includes the following steps :
   
 
     - "rep14" :  the minority includes fourteen replica of 2024 cases and all the cases of years 2018, 2019 and 2020. The majority includes only year-2024 cases. The ratio minority/majority is 1 to 2.
-    ![image](https://github.com/user-attachments/assets/4cba648d-9da7-4b74-a891-1e9031c0872c)
+    
+![image](https://github.com/user-attachments/assets/8420c32d-94f1-4c80-bb45-34d46874d579)
 
    
 ### Establish and test a boost strategy
@@ -85,7 +86,7 @@ Result using the latest of these notebooks are presented here.
 
    The "rep14" solutions were relegated at the end of the list, but before the reference basis.
     
-![Tableau final](https://github.com/user-attachments/assets/269c557c-57eb-466c-8ae3-a6264e103d2f)
+![Tableau final](https://github.com/user-attachments/assets/e8cc82b9-c3d9-4c9a-8638-0da39019d405)
 
 
 
