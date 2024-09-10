@@ -1,5 +1,5 @@
 # ISIC 2024 - Skin Cancer Detection with 3D-TBP
-#  Boosting a Complex Solution with a New Image Solution 
+#  Boosting Complex Solution with New Image Solution 
 
 ## 270th Place Bronze Medalist
 
