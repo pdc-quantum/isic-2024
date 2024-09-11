@@ -96,7 +96,7 @@ Result using the latest of these notebooks are presented here.
 
  - The public scores failed to select any of the four best solutions. This is most certainly due to the paucity of cancer cases in the reduced test dataset. 🤔
  - Serendipity let proudly get a bronze medal 😊🥉. Without this, the best public scores would have lead to submit two "rep14" solutions with no medal reward.
- - If however a set of four solutions had been allowed for the final submission, it would have resulted in a silver medal at about the 60th place🥈.
+ - If however a set of four solutions had been allowed for the final submission, I would probaly have got a better rank.
 
 I warmly thank the Kaggle team who organized this competition and helped me learn much. I am also particularly grateful to Jiadi Wang,Vyacheslav Bolotin and Wajahat Waheed who made public the notebooks that inspired me. It is a great feeling to climb on the shoulders of Kaggle's giants.
  
